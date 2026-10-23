@@ -434,3 +434,37 @@ footer {
     .greeting-text p { font-size: 15px; }
     .section { padding: 44px 24px; }
 }
+
+/* Typography and palette refresh */
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background: #f7f4f0;
+    color: #393432;
+    font-weight: 400;
+}
+
+.container { background: #fffdfa; }
+.hero h1, .section h2, .greeting-sign p:first-child, .closing-names {
+    font-family: 'Noto Serif KR', serif;
+}
+.hero h1 { letter-spacing: 2px; font-weight: 500; }
+.hero-label { letter-spacing: 4px; }
+.hero-couple { font-weight: 400; }
+.section-label { color: #a97779; }
+.section h2 { color: #393432; font-weight: 500; letter-spacing: 1px; }
+.greeting-text p, .closing-text { color: #514946; font-weight: 400; letter-spacing: 0; }
+.greeting-line { background: #d9c4c1; }
+.greeting-sign { border-top-color: #eadfda; }
+.greeting-sign p, .greeting-olim, .closing-olim { color: #8d7773; }
+.gallery-section, .closing-section { background: #f5f0ec; }
+.closing-couple { border-top-color: #dfd1cb; }
+.closing-names { color: #393432; font-weight: 500; letter-spacing: 1px; }
+.closing-parents { color: #776a66; }
+.ceremony-desc { color: #817570; }
+.ceremony-item { border-color: #e8ded9; }
+.ceremony-item summary { color: #393432; }
+.ceremony-item summary::after { color: #a97779; }
+.ceremony-item summary:active { background: #f7f4f0; }
+@media (max-width: 380px) {
+    .hero h1 { letter-spacing: 1px; }
+}
